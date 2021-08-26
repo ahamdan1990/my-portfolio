@@ -24,7 +24,7 @@ import ProjectCart from '../projectCard/projectCard.component';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 
-const Section = ({id,title,progressBarData,serviceData,contactData}) => {
+const Section = ({id,title,progressBarData,serviceData,contactData,projectData}) => {
 
     const getConfigurableProps = () => ({
         showArrows: true,
@@ -51,11 +51,9 @@ const Section = ({id,title,progressBarData,serviceData,contactData}) => {
                 (
                     <ProjectWrapper>
                         <CarouselWrap centerMode centerSlidePercentage={50} {...getConfigurableProps()}>
-                            <ProjectCart />
-                            <ProjectCart />
-                            <ProjectCart />
-                            <ProjectCart />
-                            <ProjectCart />
+                            {
+                                projectData.links.map((link,i) => <ProjectCart link={link} headingTitle={projectData.heading[i]} lang={projectData.lang[i]} />)
+                            }
                         </CarouselWrap>
                     </ProjectWrapper>   
                 ) 

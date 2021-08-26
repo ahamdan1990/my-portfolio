@@ -13,7 +13,12 @@ const sectionData = {
     },
     projects:{
         id:'projects',
-        title:'Projects'
+        title:'Projects',
+        projectData: {
+            links:['https://tesla-clone-orpin.vercel.app/','https://support.securityeng.com/','https://crwn-ecommerce-herkou-live.herokuapp.com/'],
+            heading:['Tesla Clone Website','Security Engineering Portal','E-Commerce CRWN Clothing'],
+            lang:['ReactJs','Ruby On Rails','ReactJS']
+        }
     },
     contact:{
         id:'contact',
