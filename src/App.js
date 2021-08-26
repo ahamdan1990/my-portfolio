@@ -48,7 +48,7 @@ class App extends React.Component {
     } else {
       removeSticky();
     }
-    console.log(navbar.offsetTop)
+
     if (window.pageYOffset > navbar.offsetTop - 10) {
       setPercent();
     }
