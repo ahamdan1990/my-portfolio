@@ -76,7 +76,7 @@ export const CardHeading = styled.h1`
     text-shadow:.1rem .2rem .2rem rgba(158,82,152,.7);
 `;
 
-export const CardFrontGifWrapper = styled.iframe`
+export const CardFrontGifWrapper = styled.embed`
     position: absolute;
     top:50%;
     left: 0;
