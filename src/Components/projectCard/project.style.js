@@ -11,9 +11,9 @@ const BackSide = css`
     transform: rotateY(180deg);
 `;
 
-const displayNone = css`
-    display: none;
-`;
+// const displayNone = css`
+//     display: none;
+// `;
 
 function addSideStyle(props) {
     if(props.front) {
