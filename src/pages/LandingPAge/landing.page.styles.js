@@ -238,7 +238,7 @@ export const WelcomeLogoImgWrapper = styled.a`
         height:24rem;
         border-radius:50%;
         background-color: ##fff;
-        background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQHYdBGItB-6vQ/profile-displayphoto-shrink_400_400/0/1619884743442?e=1632960000&v=beta&t=b1_trgGyQi4K69gA3kQvDgkHKABMd_K5RBnZ35ux4TI);
+        background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQHYdBGItB-6vQ/profile-displayphoto-shrink_800_800/0/1619884743442?e=1639612800&v=beta&t=eg338a2jgLaDwS6j3sv-XDvLtx-PxCOXEvDvF8UxNHM);
         background-repeat: no-repeat;
         background-position: top;
         background-size: cover;
