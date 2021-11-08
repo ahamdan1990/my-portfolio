@@ -31,7 +31,7 @@ const LandingPage = () => {
                 <WelcomeLogoImgWrapper />
 
                 <WelcomeLogo>
-                    A&H
+                    A&N
                 </WelcomeLogo>
 
             </WelcomeLogoContainer>
